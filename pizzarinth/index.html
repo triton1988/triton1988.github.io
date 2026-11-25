@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Pizzarinth — Support</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Fredoka:wght@600&display=swap">
+<style>
+:root { --bg: #fff8f1; --fg: #2a1d16; --muted: #6e5a4e; --line: #f0dccb; --accent: #d9530a;
+  --display: "Fredoka", system-ui, sans-serif; --body: "Inter", system-ui, sans-serif; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #1c1410; --fg: #f4e9e1; --muted: #bfa898; --line: #3a2a20; --accent: #ff8a3d; color-scheme: dark } }
+:root[data-theme="dark"] { --bg: #1c1410; --fg: #f4e9e1; --muted: #bfa898; --line: #3a2a20; --accent: #ff8a3d; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font: 16px/1.6 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 40px 64px; margin: 0; }
+main { max-width: 680px; margin: 0 auto; display: grid; gap: 28px; }
+h1, h2 { font-family: var(--display); text-wrap: balance; margin: 0; }
+h1 { font-size: 2rem; } h2 { font-size: 1.2rem; color: var(--accent); }
+p, li { margin: 0; } ul { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; }
+section { display: grid; gap: 10px; padding-top: 22px; border-top: 1px solid var(--line); }
+.meta { color: var(--muted); font-size: 0.9rem; } a { color: var(--accent); } nav { display: flex; gap: 14px; flex-wrap: wrap; } nav a { font-weight: 600; }
+</style></head><body><main>
+  <header style="display:grid;gap:8px"><h1>Pizzarinth</h1>
+  <p class="meta">Pizza delivery in a living maze city — game for iPhone and iPad</p></header>
+  <section><h2>Support</h2>
+  <p>Questions or bugs: write to the developer through the contact on the game's App Store page. Please include your device model and iOS version.</p>
+  <ul><li>Change the language: <b>Settings → Language</b> (13 languages), then restart the game.</li>
+  <li>Too hard or too easy? <b>Settings → Difficulty</b>: Easy, Normal or Hard.</li>
+  <li>Replay the training: <b>Settings → Play the training again</b>.</li>
+  <li>The game works offline, has no accounts and no ads. Progress is saved on your device.</li></ul></section>
+  <section><h2>Documents</h2><nav><a href="privacy.html">Privacy Policy</a></nav></section>
+  <section id="ru"><h2>Поддержка (RU)</h2>
+  <p>Вопросы и ошибки — через контакт разработчика на странице игры в App Store, укажи модель устройства и версию iOS. Язык — «Настройки → Язык», сложность — «Настройки → Сложность». Игра работает без интернета, без аккаунтов и без рекламы.</p>
+  <nav><a href="privacy.html#ru">Политика конфиденциальности</a></nav></section>
+  <section id="uk"><h2>Підтримка (UK)</h2>
+  <p>Питання та помилки — через контакт розробника на сторінці гри в App Store, вкажи модель пристрою та версію iOS. Мова — «Налаштування → Мова», складність — «Налаштування → Складність». Гра працює без інтернету, без акаунтів і без реклами.</p>
+  <nav><a href="privacy.html#uk">Політика конфіденційності</a></nav></section>
+</main></body></html>
